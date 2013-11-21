@@ -5,10 +5,54 @@
   <id>http://blog.url.com/blog/:year/:month</id>
   <link href="http://blog.url.com/blog/:year/:month"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2013-11-16T02:40:00Z</updated>
+  <updated>2013-11-21T01:36:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>MVC</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2013/11/mvc/"/>
+    <id>http://blog.url.com/blog/2013/11/mvc/</id>
+    <published>2013-11-21T01:36:00Z</published>
+    <updated>2013-11-21T17:50:34+09:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">ミーです。&lt;br&gt;
+今回はPHPから少々離れてMVCについてやります。&lt;br&gt;
+&lt;br&gt;
+1. MVCって？&lt;br&gt;
+　正式名称は”Model View Controller”&lt;br&gt;
+　処理の中核を担当する”Model”　表示出力を担当する”View”　入力を受けてModel Viewに指示を出す”Controller”　の３要素でシステムを構築する方法。&lt;br&gt;
+&lt;br&gt;
+2. 個々の要素の特徴&lt;br&gt;
+  2-1.　Model&lt;br&gt;
+  		メインの処理を担当。ただし画面の処理はしない。&lt;br&gt;
+		例をあげるなら　パソコンの本体&lt;br&gt;
+  2-2.  View&lt;br&gt;
+  		表示出力を担当。&lt;br&gt;
+		例をあげるなら　ディスプレイ&lt;br&gt;
+  2-3.  Controller&lt;br&gt;
+  		入力を受けて処理を行う。&lt;br&gt;
+		例をあげるなら　キーボード　マウス&lt;br&gt;
+&lt;br&gt;
+この様に３つの要素がそれぞれ機能を分担するため、開発が容易になる他、互いに仕様変更の影響が小さくなります。&lt;br&gt;
+&lt;br&gt;
+3. 実際の流れ&lt;br&gt;
+　例として「サイトにログインする」というのをMVCで説明します。&lt;br&gt;
+　1. ユーザがViewで表示されているテキストボックスに入力。&lt;br&gt;
+　2. ControllerがViewからの情報をModelに送る。&lt;br&gt;
+　3. Modelが情報が正確なものか確認する。&lt;br&gt;
+　4. ModelがViewへと処理結果を送る&lt;br&gt;
+　5. Viewがログイン先のページを表示する。&lt;br&gt;
+　6. Viewがユーザの次の指示を待つ。&lt;br&gt;
+&lt;br&gt;
+　と言うような流れです。&lt;br&gt;
+&lt;br&gt;
+　MVCについて簡単にまとめてみました。&lt;br&gt;
+　次回はもう少し詳しいとこまでやっていこうと思います。&lt;br&gt;
+</content>
+  </entry>
   <entry>
     <title>PHPの復習２</title>
     <link rel="alternate" href="http://blog.url.com/blog/2013/11/test2/"/>
